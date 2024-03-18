@@ -1,9 +1,15 @@
 title: Parjita Munshi
 logo: "/images/profile_photo.png"
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  Email: parjita.munshi04@gmail.com
+  An explorer,
   <br><br>
-  <a href="https://www.linkedin.com/in/parjitamunshi/">View My LinkedIn Profile</a> 
+  A Problem Solver
+  <br><br>
+  A researcher
+  <br><br>  
+  ✉️ Email: [parjita.munshi04@gmail.com](mailto:parjita.munshi04@gmail.com) 
+  <br><br>
+  🔗 [LinkedIn](https://www.linkedin.com/in/parjitamunshi/)
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
