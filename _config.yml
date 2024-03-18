@@ -1,5 +1,14 @@
+# Site settings
 title: Parjita Munshi
 logo: /images/profile_photo.png
 description: Data Scientist/Machine Learning/Data Analyst
 #show_downloads: true
 theme: jekyll-theme-minimal
+
+# Author information
+author:
+  name: Parjita Munshi
+  phone: +1 (617) 505-8825
+  email: parjita.munshi04@gmail.com
+  Linkedin: https://www.linkedin.com/parjitamunshi
+  Github: https://github.com/ParjitaMunshi
