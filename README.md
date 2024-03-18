@@ -3,13 +3,13 @@
 
 ## EDUCATION
 
-- **Master of Science in Information Systems**
-  - Northeastern University, Boston, MA (Sep 2022 - May 2024)
-  - Key Courses: Data Science Tools and Methods, Parallel Machine Learning & AI, Natural Language Engineering, ML in Fintech
+### Master of Science in Information Systems
+- Northeastern University, Boston, MA (Sep 2022 - May 2024)
+- Key Courses: Data Science Tools and Methods, Parallel Machine Learning & AI, Natural Language Engineering, ML in Fintech
     
-- **Bachelor of Engineering in Information Technology**
-  - Gujarat Technological University (Aug 2016 - Aug 2020)
-  - Key Courses: Artificial Intelligence, Database Management Systems, Data Structure, Data Compression & Data Retrieval
+### Bachelor of Engineering in Information Technology
+- Gujarat Technological University (Aug 2016 - Aug 2020)
+- Key Courses: Artificial Intelligence, Database Management Systems, Data Structure, Data Compression & Data Retrieval
 
 ## PROFESSIONAL EXPERIENCE
 
