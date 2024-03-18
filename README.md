@@ -1,14 +1,14 @@
 # parjitamunshi.github.io
 
-#Data Scientist
+# Data Scientist
 
-###EDUCATION
+### EDUCATION
 Master of Science in Information Systems | Northeastern University Sep 2022 - May 2024
 • Data Science Tools, Parallel Machine Learning & AI, Natural Language Engineering, ML in Fintech
 Bachelor of Engineering in Information Technology | Gujarat Technological University Aug 2016 - Aug 2020 
 • Artificial Intelligence, Database Management Systems, Data Structure, Data Compression & Data Retrieval
 
-###PROFESSIONAL EXPERIENCE
+### PROFESSIONAL EXPERIENCE
 Graduate Research Assistant @ Northeastern University, Boston, MA May 2023 – Present
 • Managing intraoperative data from the ICU, specifically handling time-series data on a per-patient basis, utilizing 
 missing value imputation techniques such as forward fill and interpolation to ensure data completeness
@@ -29,7 +29,7 @@ using HTML, CSS, and Bootstrap, with additional exploration of innovative soluti
 • Managed multiple service-providing websites, following agile methodology from requirements gathering to 
 delivery with a focus on user-centric design principles aligned with strategic objectives
 
-###PROJECTS
+### PROJECTS
 Moderation App
 • Developed toxic comment classification model utilizing LSTM, Random Forest, Multinomial Naïve Bayes, 
 attaining 85% accuracy, revamping moderation efficiency, ensuring effective management of online content
@@ -47,7 +47,7 @@ boosting review classification accuracy, and efficiency by 15% through advanced 
 analysis, optimizing the interpretation of customer feedback, and succeeding in decision-making processes
 
 
-###SKILLS 
+### SKILLS 
 Programming Languages: Python (NumPy, Pandas, Scikit-Learn, Matplotlib, Seaborn, TensorFlow, Keras),PySpark, SQL, MySQL
 Technologies: Machine Learning, Deep Learning, Large Language Models, Natural Language Processing
 Methods: Data Analysis, Data Visualization, Data Mining
