@@ -3,8 +3,6 @@ title: Parjita Munshi
 logo: /images/profile_photo.png
 description: Data Scientist/Machine Learning/Data Analyst
 #show_downloads: true
-theme: jekyll-theme-minimal
-email: parjita.munshi04@gmail.com
-Linkedin: https://www.linkedin.com/parjitamunshi
-Github: https://github.com/ParjitaMunshi
+theme: jekyll-theme-subtle
+
 
