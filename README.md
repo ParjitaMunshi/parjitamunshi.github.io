@@ -1,3 +1,5 @@
+# [Parjita Munshi - Data Science, Machine Learning, Data Analysis, Software Engineering]
+
 ## SUMMARY 
 👋 Hi there! I'm Parjita Munshi, aspiring to become a proficient and innovative problem solver in the realm of technology and data. With a strong background in data science, machine learning, and software engineering, I'm passionate about tackling complex problems and creating value through data-driven solutions. Whether it's 🚀 harnessing the power of machine learning to analyze intricate datasets or crafting innovative software solutions, I'm committed to pushing boundaries and driving impactful change. Join me on my journey as I strive to unlock new possibilities and make a meaningful difference through technology.💡🔍📊💻🌟
 
