@@ -47,7 +47,7 @@ improved feature representation techniques, enhancing the model's ability to rec
 25% improvement in model interpretability, facilitating better understanding and trust in the model's decisions
 
 ### [Amazon Review Classification]( https://github.com/ParjitaMunshi/Amazon-Reviews-Classification)
-![Amazon Review Classification](/images/amazon_review.png)
+![Amazon Review Classification](/images/amazon_review.jpg)
 - Conducted sentiment analysis on a dataset of 5000 Amazon reviews, providing valuable insights into customer 
 sentiments to revise product understanding and inform decision-making with actionable insights
 - Employed combination of Naive Bayes, Support Vector Machines, LSTM, BERT, OpenAI techniques, 
