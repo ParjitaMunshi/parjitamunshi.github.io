@@ -1,5 +1,8 @@
 title: Parjita Munshi
-logo: "/images/profile_photo.png"
+logo: 
+  <p align="center">
+  <img src="/images/profile_photo.png" alt="Profile Photo" width="200" height="200" style="border-radius: 50%;">
+  </p>"/images/profile_photo.png"
 description: > # your text below (remove <br> elements if you don't need line breaks)
   An explorer, <br>
   A problem solver,<br>
