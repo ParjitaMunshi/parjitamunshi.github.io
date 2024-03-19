@@ -38,6 +38,7 @@ delivery with a focus on user-centric design principles aligned with strategic o
 ## PROJECTS
 
 ### [Moderation App](https://github.com/ParjitaMunshi/Moderation-Application)
+![Moderation App](/images/moderation_app.png)
 - Developed toxic comment classification model utilizing LSTM, Random Forest, Multinomial Naïve Bayes, 
 attaining 85% accuracy, revamping moderation efficiency, ensuring effective management of online content
 - Crafted TF-IDF & text-vectorization methods, elevating toxic language identification accuracy by 15% through 
@@ -46,17 +47,10 @@ improved feature representation techniques, enhancing the model's ability to rec
 25% improvement in model interpretability, facilitating better understanding and trust in the model's decisions
 
 ### [Amazon Review Classification]( https://github.com/ParjitaMunshi/Amazon-Reviews-Classification)
+![Amazon Review Classification](/images/amazon_review.png)
 - Conducted sentiment analysis on a dataset of 5000 Amazon reviews, providing valuable insights into customer 
 sentiments to revise product understanding and inform decision-making with actionable insights
 - Employed combination of Naive Bayes, Support Vector Machines, LSTM, BERT, OpenAI techniques, 
 boosting review classification accuracy, and efficiency by 15% through advanced machine learning algorithms
 - Leveraged ChatGPT for natural language processing, achieving an impressive 87% accuracy in sentiment 
 analysis, optimizing the interpretation of customer feedback, and succeeding in decision-making processes
-
-
-## SKILLS 
-
-- **Programming Languages**: Python((NumPy, Pandas, Scikit-Learn, Matplotlib, Seaborn, TensorFlow, Keras), PySpark, SQL, MySQL
-- **Technologies**: Machine Learning, Deep Learning, Natural Language Processing, Large Language Models, Statistics
-- **Methods**: Data Analysis, Data Visualization, Data Mining
-- **Tools**: Tableau, Power BI, Excel, GitHub
