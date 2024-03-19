@@ -1,17 +1,17 @@
 
-## INTRODUCTION
+## Introduction
 Hey there! 👋 I'm Parjita, a researcher, problem solver, and explorer. Think of me as a data aficionado in training, armed with a keyboard and a hefty dose of caffeine.
 
 Inside this portfolio, you'll find a mishmash of projects where I've attempted to crack the code of data mysteries. Some might make you go "wow," others might make you go "huh?" but hey, that's all part of the journey, right?
 
 So, if you're in the market for someone who can spin data into gold, then look no further! Grab a snack, sit back, and let's embark on this wild ride through the world of data together. Trust me, it's gonna be a hoot!
 
-## EDUCATION
+## Education
 					       		
 - M.S., Information Systems	| Northeastern University (_May 2024_)	 			        		
 - B.E., Information Technology | Gujarat Technological University (_Aug 2020_)
 
-## PROFESSIONAL EXPERIENCE
+## Work Experience
 
 ### Graduate Research Assistant  @ Northeastern University, Boston, MA (May 2023 - Present)
 - Managing intraoperative data from the ICU, specifically handling time-series data on a per-patient basis, utilizing 
@@ -33,7 +33,7 @@ using HTML, CSS, and Bootstrap, with additional exploration of innovative soluti
 - Managed multiple service-providing websites, following agile methodology from requirements gathering to 
 delivery with a focus on user-centric design principles aligned with strategic objectives
 
-## PROJECTS
+## Projects
 
 ### [Moderation App](https://github.com/ParjitaMunshi/Moderation-Application)
 ![Moderation App](/images/moderation_app.png)
