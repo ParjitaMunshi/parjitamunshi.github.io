@@ -1,1 +1,402 @@
+/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
 
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+/* first page */
+
+#introduction{
+    background-color: #f4f1eb;
+    margin-top: 65px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.left img {
+    max-width: 100%;
+    width: 250px;
+    height: auto;
+}
+
+.right {
+    width: 60%; /* Adjust width as needed */
+    font-family: 'PT Sans', sans-serif;
+    color: #5b5b5b;
+    text-align: center;
+}
+
+.right h2 {
+    font-size: 43.3px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.right h3 {
+    font-size: 24px;
+}
+
+.right p {
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px; /* Adjust size of social media icons as needed */
+    height: auto;
+}
+
+/* about section */
+#about{
+    background-color: #ffffff;
+}
+#about .about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#about .about-left {
+    width: 60%;
+    font-family: 'PT Serif', serif;
+    color: #000000;
+    padding: 40px;
+}
+
+#about .about-left h2 {
+    font-family: 'PT Serif', serif;
+    color: #000000;
+}
+
+#about .about-right {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+#about .about-right img {
+    width: 250px;
+    height: auto;
+}
+
+#about .about-left h2 {
+    font-size: 43.1px;
+}
+
+#about .about-content {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+
+#about .about-content h2 {
+    font-size: 43.1px;
+}
+
+#about .about-content p {
+    margin-bottom: 15px;
+}
+
+/* relevant expereince */
+#relevant-experience{
+    background-color: #f4f1eb;
+}
+
+#relevant-experience .container {
+    display: flex;
+    flex-direction: row;
+}
+
+#relevant-experience .experience-left {
+    width: 30%;
+    height: 695px;
+}
+
+#relevant-experience .experience-left h2 {
+    font-size: 43px;
+    color: #000000;
+    margin-top: 0; /* Remove default margin */
+}
+
+#relevant-experience .experience-right {
+    width: 70%;
+    font-family: 'PT Serif', serif;
+    color: #5b5b5b; /* Color for "Northeastern University" and "ekZero" */
+    padding: 40px;
+}
+
+#relevant-experience .job {
+    margin: 30px 0px;
+    display: flex;
+}
+
+#relevant-experience .job .job-year {
+    width: 30%;
+}
+
+#relevant-experience .job-details {
+    width: 80%;
+}
+
+#relevant-experience .job-company {
+    flex: 0 0 200px; /* Adjust width of company name column as needed */
+    text-align: right;
+}
+
+#relevant-experience .job .job-details h2 {
+    font-weight: bold;
+    color: #000000;
+}
+
+#relevant-experience .job .job-details h3 {
+    color: #5b5b5b;
+}
+
+#relevant-experience .job h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#relevant-experience .job p {
+    margin: 15px 0px;
+    color: #000000;
+}
+
+/* education section */
+
+#education{
+    background-color: #ffffff;
+}
+#education .container {
+    display: flex;
+    flex-direction: row;
+}
+
+#education .education-left {
+    width: 30%;
+    height: 300px;
+}
+
+#education .education-left h2 {
+    font-size: 43px;
+    color: #000000;
+    margin-top: 0; /* Remove default margin */
+}
+
+#education .education-right {
+    margin-left: 50px;
+    width: 70%;
+    font-family: 'PT Serif', serif;
+    color: #5b5b5b; /* Color for "Northeastern University" and "ekZero" */
+}
+
+#education .college .college-details h2 {
+    font-weight: bold;
+    margin: 20px 0px;
+    color: #000000;
+}
+
+#education .college .college-details h3 {
+    color: #5b5b5b;
+}
+
+/* skill section */
+
+#skills{
+    background-color: #f4f1eb;
+}
+
+#skills .container {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px 0px 20px;
+}
+
+#skills .skills-left {
+    width: 30%;
+    height: 300px;
+}
+
+#skills .skills-left h2 {
+    font-size: 43px;
+    color: #000000;
+    margin-top: 0; /* Remove default margin */
+}
+
+#skills .skills-right {
+    width: 70%;
+    font-family: 'PT Serif', serif;
+    color: #5b5b5b; /* Color for "Northeastern University" and "ekZero" */
+    background-color: #5b5b5b;
+    padding: 20px;
+}
+
+#skills .skills .skills-details h2 {
+    font-weight: bold;
+    margin: 20px 0px;
+    color: #ffffff;
+}
+
+#skills .skills .skills-details h3 {
+    color: #ffffff;
+}
+
+#projects{
+    background-color: #f4f1eb;
+}
+/* Project section */
+#projects .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+#projects .title {
+    color: #000000;
+    font-size: 43px;
+}
+
+#projects h2 {
+    grid-column: 1 / -1;
+    
+}
+
+#projects .project {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+#projects .project h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#projects .project-content {
+    flex: 1;
+}
+
+#projects .project-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#projects .project-content p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Connect with Me section */
+#connect-with-me {
+    text-align: center;
+    background-color: #5b5b5b;
+    color: #ffffff;
+    padding: 20px;
+}
+
+#connect-with-me h2 {
+    font-size: 43px;
+    margin: 10px 0;
+}
+
+#connect-with-me p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
