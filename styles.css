@@ -111,7 +111,7 @@ nav ul li a:hover {
 }
 
 .right h3 {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .right p {
@@ -163,7 +163,7 @@ nav ul li a:hover {
 }
 
 #about .about-right img {
-    width: 250px;
+    width: 400px;
     height: auto;
 }
 
@@ -185,7 +185,7 @@ nav ul li a:hover {
 }
 
 #about .about-content h2 {
-    font-size: 43.1px;
+    font-size: 30px;
 }
 
 #about .about-content p {
@@ -270,11 +270,11 @@ nav ul li a:hover {
 
 #education .education-left {
     width: 30%;
-    height: 300px;
+    height: 400px;
 }
 
 #education .education-left h2 {
-    font-size: 43px;
+    font-size: 30px;
     color: #000000;
     margin-top: 0; /* Remove default margin */
 }
@@ -314,7 +314,7 @@ nav ul li a:hover {
 }
 
 #skills .skills-left h2 {
-    font-size: 43px;
+    font-size: 30px;
     color: #000000;
     margin-top: 0; /* Remove default margin */
 }
