@@ -116,6 +116,7 @@ nav ul li a:hover {
 
 .right p {
     margin-bottom: 15px;
+    
 }
 
 .social-icons {
@@ -174,6 +175,13 @@ nav ul li a:hover {
     font-family: 'PT Sans', sans-serif;
     font-size: 14px;
     color: #000000;
+}
+
+#about .about-content p{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    color: #000000;
+    text-align: justify;
 }
 
 #about .about-content h2 {
@@ -247,6 +255,7 @@ nav ul li a:hover {
 #relevant-experience .job p {
     margin: 15px 0px;
     color: #000000;
+    text-align: justify;
 }
 
 /* education section */
@@ -373,6 +382,7 @@ nav ul li a:hover {
 #projects .project-content p {
     font-size: 14px;
     line-height: 1.5;
+    text-align: justify;
 }
 
 /* Connect with Me section */
