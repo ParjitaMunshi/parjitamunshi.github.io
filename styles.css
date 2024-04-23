@@ -1,23 +1,10 @@
 /* Reset CSS */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+    box-sizing: border-box;
 }
 
 /* Global Styles */
@@ -32,9 +19,7 @@ body {
     max-width: 100%;
     margin: 0 auto;
     padding: 20px;
-    box-sizing: border-box;
 }
-
 
 header {
     background-color: rgba(0, 0, 0, 0.5);
@@ -44,12 +29,14 @@ header {
     width: 100%;
     position: fixed;
     top: 0;
+    z-index: 1000; /* Ensure header stays on top */
 }
 
 .header-container {
     display: flex;
     justify-content: space-between;
-    padding: 0 50px;
+    align-items: center; /* Vertically center content */
+    padding: 0 20px;
 }
 
 h1 {
@@ -78,335 +65,235 @@ nav ul li a:hover {
     color: #ddd;
 }
 
-/* first page */
-
-#introduction{
+/* Introduction section */
+#introduction {
     background-color: #f4f1eb;
-    margin-top: 65px;
+    padding-top: 65px; /* Adjust padding to accommodate fixed header */
 }
-.container {
+
+#introduction .container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
 }
 
-.left img {
+#introduction .left img {
     max-width: 100%;
     width: 250px;
     height: auto;
 }
 
-.right {
-    width: 60%; /* Adjust width as needed */
-    font-family: 'PT Sans', sans-serif;
-    color: #5b5b5b;
+#introduction .right {
+    width: 60%;
     text-align: center;
 }
 
-.right h2 {
-    font-size: 43.3px;
-    color: #000000;
+#introduction .right h2 {
+    font-size: 28px; /* Adjust font size */
     margin-bottom: 10px;
 }
 
-.right h3 {
-    font-size: 20px;
+#introduction .right h3 {
+    font-size: 18px; /* Adjust font size */
+    margin-bottom: 20px;
 }
 
-.right p {
-    margin-bottom: 15px;
-    
-}
-
-.social-icons {
+#introduction .social-icons {
     margin-top: 20px;
 }
 
-.social-icons a {
+#introduction .social-icons a {
     display: inline-block;
     margin-right: 10px;
 }
 
-.social-icons img {
-    width: 30px; /* Adjust size of social media icons as needed */
+#introduction .social-icons img {
+    width: 30px;
     height: auto;
 }
 
-/* about section */
-#about{
+/* About section */
+#about {
     background-color: #ffffff;
-}
-#about .about-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 20px;
 }
 
+#about .about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #about .about-left {
-    width: 60%;
-    font-family: 'PT Serif', serif;
-    color: #000000;
-    padding: 40px;
+    width: 45%; /* Adjust width */
 }
 
 #about .about-left h2 {
-    font-family: 'PT Serif', serif;
-    color: #000000;
+    font-size: 28px; /* Adjust font size */
+    margin-bottom: 20px;
 }
 
 #about .about-right {
-    width: 40%;
-    display: flex;
-    justify-content: center;
+    width: 45%; /* Adjust width */
+    text-align: center;
 }
 
 #about .about-right img {
-    width: 400px;
+    max-width: 100%;
     height: auto;
 }
 
-#about .about-left h2 {
-    font-size: 43.1px;
-}
-
 #about .about-content {
-    font-family: 'PT Sans', sans-serif;
-    font-size: 14px;
-    color: #000000;
-}
-
-#about .about-content p{
-    font-family: 'PT Sans', sans-serif;
     font-size: 14px;
     color: #000000;
     text-align: justify;
+    margin-top: 20px; /* Adjust margin */
+    line-height: 1.5; /* Improve readability */
 }
 
-#about .about-content h2 {
-    font-size: 30px;
-}
-
-#about .about-content p {
-    margin-bottom: 15px;
-}
-
-/* relevant expereince */
-#relevant-experience{
+/* Relevant experience section */
+#relevant-experience {
     background-color: #f4f1eb;
+    padding: 20px;
 }
 
 #relevant-experience .container {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 #relevant-experience .experience-left {
-    width: 30%;
-    height: 695px;
-}
-
-#relevant-experience .experience-left h2 {
-    font-size: 43px;
-    color: #000000;
-    margin-top: 0; /* Remove default margin */
+    width: 45%; /* Adjust width */
 }
 
 #relevant-experience .experience-right {
-    width: 70%;
-    font-family: 'PT Serif', serif;
-    color: #5b5b5b; /* Color for "Northeastern University" and "ekZero" */
-    padding: 40px;
+    width: 45%; /* Adjust width */
 }
 
 #relevant-experience .job {
-    margin: 30px 0px;
-    display: flex;
+    margin-bottom: 30px; /* Adjust margin */
 }
 
-#relevant-experience .job .job-year {
+#relevant-experience .job-year {
     width: 30%;
 }
 
 #relevant-experience .job-details {
-    width: 80%;
+    width: 70%;
 }
 
-#relevant-experience .job-company {
-    flex: 0 0 200px; /* Adjust width of company name column as needed */
-    text-align: right;
+#relevant-experience .job-details h2 {
+    font-size: 24px; /* Adjust font size */
+    margin-bottom: 10px;
 }
 
-#relevant-experience .job .job-details h2 {
-    font-weight: bold;
-    color: #000000;
-}
-
-#relevant-experience .job .job-details h3 {
+#relevant-experience .job-details h3 {
+    font-size: 18px; /* Adjust font size */
     color: #5b5b5b;
+    margin-bottom: 10px;
 }
 
-#relevant-experience .job h4 {
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
-
-#relevant-experience .job p {
-    margin: 15px 0px;
+#relevant-experience .job-details p {
+    font-size: 14px; /* Adjust font size */
     color: #000000;
-    text-align: justify;
+    margin-bottom: 10px;
 }
 
-/* education section */
-
-#education{
+/* Education section */
+#education {
     background-color: #ffffff;
-}
-#education .container {
-    display: flex;
-    flex-direction: row;
-}
-
-#education .education-left {
-    width: 30%;
-    height: 400px;
-}
-
-#education .education-left h2 {
-    font-size: 30px;
-    color: #000000;
-    margin-top: 0; /* Remove default margin */
-}
-
-#education .education-right {
-    margin-left: 50px;
-    width: 70%;
-    font-family: 'PT Serif', serif;
-    color: #5b5b5b; /* Color for "Northeastern University" and "ekZero" */
-}
-
-#education .college .college-details h2 {
-    font-weight: bold;
-    margin: 20px 0px;
-    color: #000000;
-}
-
-#education .college .college-details h3 {
-    color: #5b5b5b;
-}
-
-/* skill section */
-
-#skills{
-    background-color: #f4f1eb;
-}
-
-#skills .container {
-    display: flex;
-    flex-direction: row;
-    padding: 0px 0px 0px 20px;
-}
-
-#skills .skills-left {
-    width: 30%;
-    height: 300px;
-}
-
-#skills .skills-left h2 {
-    font-size: 30px;
-    color: #000000;
-    margin-top: 0; /* Remove default margin */
-}
-
-#skills .skills-right {
-    width: 70%;
-    font-family: 'PT Serif', serif;
-    color: #5b5b5b; /* Color for "Northeastern University" and "ekZero" */
-    background-color: #5b5b5b;
     padding: 20px;
 }
 
-#skills .skills .skills-details h2 {
-    font-weight: bold;
-    margin: 20px 0px;
-    color: #ffffff;
+#education .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
-#skills .skills .skills-details h3 {
-    color: #ffffff;
+#education .education-left {
+    width: 45%; /* Adjust width */
 }
 
-#projects{
+#education .education-right {
+    width: 45%; /* Adjust width */
+}
+
+#education .college .college-details h2,
+#education .college .college-details h3 {
+    font-size: 18px; /* Adjust font size */
+    margin-bottom: 10px;
+}
+
+/* Projects section */
+#projects {
     background-color: #f4f1eb;
+    padding: 20px;
 }
-/* Project section */
+
 #projects .container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
 }
 
 #projects .title {
-    color: #000000;
-    font-size: 43px;
-}
-
-#projects h2 {
+    font-size: 28px; /* Adjust font size */
     grid-column: 1 / -1;
-    
-}
-
-#projects .project {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #ccc;
-    padding: 20px;
 }
 
 #projects .project h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-#projects .project-content {
-    flex: 1;
-}
-
-#projects .project-content img {
-    max-width: 100%;
-    height: auto;
+    font-size: 18px; /* Adjust font size */
     margin-bottom: 10px;
 }
 
 #projects .project-content p {
-    font-size: 14px;
-    line-height: 1.5;
-    text-align: justify;
+    font-size: 14px; /* Adjust font size */
+    margin-bottom: 10px;
 }
 
 /* Connect with Me section */
 #connect-with-me {
-    text-align: center;
     background-color: #5b5b5b;
     color: #ffffff;
     padding: 20px;
+    text-align: center;
 }
 
 #connect-with-me h2 {
-    font-size: 43px;
-    margin: 10px 0;
+    font-size: 28px; /* Adjust font size */
+    margin-bottom: 10px;
 }
 
 #connect-with-me p {
-    font-size: 18px;
-    margin: 10px 0;
+    font-size: 18px; /* Adjust font size */
+    margin-bottom: 10px;
 }
-
 
 /* Media Queries */
 @media only screen and (max-width: 768px) {
-    .container {
-        padding: 10px;
+    /* Adjustments for smaller screens */
+    #introduction .container,
+    #about .about-container,
+    #relevant-experience .container,
+    #education .container,
+    #projects .container {
+        flex-direction: column;
+        align-items: center;
     }
-}
+
+    #introduction .left img {
+        width: 200px; /* Adjust image width */
+    }
+
+    #introduction .right,
+    #about .about-right,
+    #relevant-experience .experience-right,
+    #education .education-right {
+        width: 100%; /* Adjust width */
+        margin
