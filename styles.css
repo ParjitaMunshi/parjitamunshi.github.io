@@ -28,22 +28,13 @@ body {
     line-height: 1.6;
 }
 
-.container {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-
 header {
     background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    text-align: center;
     padding: 20px;
     width: 100%;
     position: fixed;
     top: 0;
+    z-index: 999
 }
 
 .header-container {
@@ -64,10 +55,6 @@ nav ul {
     justify-content: center;
 }
 
-nav ul li {
-    margin: 0 15px;
-}
-
 nav ul li a {
     color: #fff;
     text-decoration: none;
@@ -82,23 +69,10 @@ nav ul li a:hover {
 
 #introduction{
     background-color: #f4f1eb;
-    margin-top: 65px;
-}
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-}
-
-.left img {
-    max-width: 100%;
-    width: 250px;
-    height: auto;
+    margin-top: 58px;
 }
 
 .right {
-    width: 60%; /* Adjust width as needed */
     font-family: 'PT Sans', sans-serif;
     color: #5b5b5b;
     text-align: center;
@@ -144,10 +118,8 @@ nav ul li a:hover {
 }
 
 #about .about-left {
-    width: 60%;
     font-family: 'PT Serif', serif;
     color: #000000;
-    padding: 40px;
 }
 
 #about .about-left h2 {
@@ -156,13 +128,11 @@ nav ul li a:hover {
 }
 
 #about .about-right {
-    width: 40%;
     display: flex;
     justify-content: center;
 }
 
 #about .about-right img {
-    width: 250px;
     height: auto;
 }
 
@@ -194,11 +164,6 @@ nav ul li a:hover {
     flex-direction: row;
 }
 
-#relevant-experience .experience-left {
-    width: 30%;
-    height: 695px;
-}
-
 #relevant-experience .experience-left h2 {
     font-size: 43px;
     color: #000000;
@@ -206,23 +171,13 @@ nav ul li a:hover {
 }
 
 #relevant-experience .experience-right {
-    width: 70%;
     font-family: 'PT Serif', serif;
     color: #5b5b5b; /* Color for "Northeastern University" and "ekZero" */
-    padding: 40px;
 }
 
 #relevant-experience .job {
     margin: 30px 0px;
     display: flex;
-}
-
-#relevant-experience .job .job-year {
-    width: 30%;
-}
-
-#relevant-experience .job-details {
-    width: 80%;
 }
 
 #relevant-experience .job-company {
@@ -244,7 +199,7 @@ nav ul li a:hover {
     margin-bottom: 5px;
 }
 
-#relevant-experience .job p {
+#relevant-experience .job .job-details p{
     margin: 15px 0px;
     color: #000000;
 }
@@ -259,11 +214,6 @@ nav ul li a:hover {
     flex-direction: row;
 }
 
-#education .education-left {
-    width: 30%;
-    height: 300px;
-}
-
 #education .education-left h2 {
     font-size: 43px;
     color: #000000;
@@ -271,8 +221,6 @@ nav ul li a:hover {
 }
 
 #education .education-right {
-    margin-left: 50px;
-    width: 70%;
     font-family: 'PT Serif', serif;
     color: #5b5b5b; /* Color for "Northeastern University" and "ekZero" */
 }
@@ -287,56 +235,14 @@ nav ul li a:hover {
     color: #5b5b5b;
 }
 
-/* skill section */
 
-#skills{
-    background-color: #f4f1eb;
-}
 
-#skills .container {
-    display: flex;
-    flex-direction: row;
-    padding: 0px 0px 0px 20px;
-}
-
-#skills .skills-left {
-    width: 30%;
-    height: 300px;
-}
-
-#skills .skills-left h2 {
-    font-size: 43px;
-    color: #000000;
-    margin-top: 0; /* Remove default margin */
-}
-
-#skills .skills-right {
-    width: 70%;
-    font-family: 'PT Serif', serif;
-    color: #5b5b5b; /* Color for "Northeastern University" and "ekZero" */
-    background-color: #5b5b5b;
-    padding: 20px;
-}
-
-#skills .skills .skills-details h2 {
-    font-weight: bold;
-    margin: 20px 0px;
-    color: #ffffff;
-}
-
-#skills .skills .skills-details h3 {
-    color: #ffffff;
-}
+/* Project section */
 
 #projects{
     background-color: #f4f1eb;
 }
-/* Project section */
-#projects .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-}
+
 
 #projects .title {
     color: #000000;
@@ -349,8 +255,6 @@ nav ul li a:hover {
 }
 
 #projects .project {
-    display: flex;
-    flex-direction: column;
     border: 1px solid #ccc;
     padding: 20px;
 }
@@ -360,9 +264,7 @@ nav ul li a:hover {
     margin-bottom: 10px;
 }
 
-#projects .project-content {
-    flex: 1;
-}
+
 
 #projects .project-content img {
     max-width: 100%;
