@@ -4,227 +4,255 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Scientist Portfolio - Parjita Munshi</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Custom CSS can go here */
+    </style>
 </head>
 <body>
 
-<header>
-    <div class="header-container">
-        <div>
-            <h1>Parjita Munshi</h1>
-        </div>
-        <div>
-            <nav>
-                <ul>
-                    <li><a href="#introduction">Introduction</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#relevant-experience">Relevant Experience</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#connect-with-me">Connect with Me</a></li>
-                </ul>
-            </nav>
+<header class="text-white py-2">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-4">
+                <h1 class="mb-0">Parjita Munshi</h1>
+            </div>
+            <div class="col-md-8 text-right">
+                <nav>
+                    <ul class="nav">
+                        <li class="nav-item"><a class="nav-link" href="#introduction">Introduction</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#relevant-experience">Relevant Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#connect-with-me">Connect with Me</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </div>
 </header>
 
-<section id="introduction">
+<section id="introduction" class="py-5">
     <div class="container">
-        <div class="left">
-            <img src="/images/profile_photo.jpg" alt="Profile Picture">
-        </div>
-        <div class="right">
-            <h2>Parjita Munshi</h2>
-            <h3>Data Scientist | Data Analyst | Machine Learning Engineer | Software Developer</h3>
-            <div class="social-icons">
-                <a href="https://github.com/ParjitaMunshi"><img src="/images/github.png" alt="GitHub"></a>
-                <a href="https://www.linkedin.com/in/parjitamunshi"><img src="/images/linkedin.png" alt="LinkedIn"></a>
-                <a href="mailto:parjita.munshi04@gmail.com"><img src="/images/gmail.png" alt="Gmail"></a>
-                <!-- Add more social media icons and their respective links as needed -->
+        <div class="row">
+            <div class="col-md-6 left">
+                <img src="/images/pic.jpg" alt="Profile Picture" class="img-fluid">
             </div>
-        </div>
-    </div>
-</section>
-
-
-<section id="about">
-    <div class="container about-container">
-        <div class="about-left">
-            <h2>About Me (She/Her)</h2>
-            <div class="about-content">
-                <p>Hey there! 👋 I'm Parjita, a researcher, problem solver, and an explorer. Think of me as a data aficionado in training, armed with a keyboard and a hefty dose of caffeine.</p>
-                <p>Inside this portfolio, you'll find a mishmash of projects where I've attempted to crack the code of data mysteries. Some might make you go "Wow," and others might make you go "Huh?" but hey, that's all part of the journey, right?</p>
-                <p>So, if you're in the market for someone who can spin data into gold, then look no further! Grab a snack, sit back, and let's embark on this wild ride through the world of data together. Trust me, it's gonna be a hoot!</p>
-            </div>
-        </div>
-        <div class="about-right">
-            <img src="/images/about.gif" alt="Profile Picture">
-        </div>        
-    </div>
-</section>
-
-<section id="relevant-experience">
-    <div class="container">
-        <div class="experience-left">
-            <h2>Relevant</h2>
-            <h2>Experience</h2>
-        </div>
-        <div class="experience-right">
-            <div class="job">
-                <div class="job-year">
-                    <p>Present</p>
+            <div class="col-md-6 right">
+                <h2>Parjita Munshi</h2>
+                <h3>Data Scientist | Data Analyst | Machine Learning Engineer | Software Developer</h3>
+                <div class="social-icons mt-4">
+                    <a href="https://github.com/ParjitaMunshi"><img src="/images/github.png" alt="GitHub"></a>
+                    <a href="https://www.linkedin.com/in/parjitamunshi"><img src="/images/linkedin.png" alt="LinkedIn"></a>
+                    <a href="mailto:parjita.munshi04@gmail.com"><img src="/images/gmail.png" alt="Gmail"></a>
+                    <!-- Add more social media icons and their respective links as needed -->
                 </div>
-                <div class="job-details">
-                    <h2>Graduate Research Assistant</h2>
-                    <h3>Northeastern University</h3>                  
-                    <p>In my role as a data scientist, I managed intricate ICU data, 
-                        ensuring its accuracy and completeness. Employing advanced techniques like missing value imputation, 
-                        I maintained data integrity, laying the groundwork for robust analysis and informed decision-making in critical care scenarios.
-                        Additionally, I spearheaded a project analyzing 2.3 million medical records to detect cardiovascular diseases.
-                        Utilizing sophisticated algorithms, I developed a healthcare classification system, 
-                        improving disease detection accuracy and patient stratification. 
-                        This initiative significantly enhanced healthcare outcomes and treatment efficacy.
-                    </p>
-                </div>            
             </div>
-            <hr></hr>
-            <div class="job">
-                <div class="job-year">
-                    <p>2022</p>
+        </div>
+    </div>
+</section>
+
+
+<section id="about" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="about-left">
+                    <h2>About Me (She/Her)</h2>
+                    <div class="about-content">
+                        <p>Hey there! 👋 I'm Parjita, a researcher, problem solver, and an explorer. Think of me as a data aficionado in training, armed with a keyboard and a hefty dose of caffeine.</p>
+                        <p>Inside this portfolio, you'll find a mishmash of projects where I've attempted to crack the code of data mysteries. Some might make you go "Wow," and others might make you go "Huh?" but hey, that's all part of the journey, right?</p>
+                        <p>So, if you're in the market for someone who can spin data into gold, then look no further! Grab a snack, sit back, and let's embark on this wild ride through the world of data together. Trust me, it's gonna be a hoot!</p>
+                    </div>
                 </div>
-                <div class="job-details">
-                    <h2>Junior Software Engineer</h2>
-                    <h3>ekZero Software Service</h3>
-                    <p>I led projects focused on enhancing website development, user experience, and operational efficiency. By gathering feedback from a sizable user base, I informed strategic enhancements resulting in heightened user satisfaction and engagement levels. Utilizing the Duda platform, I developed seamless websites for a large user cohort, prioritizing user experience and achieving a significant speed improvement through Vue.js optimization. Additionally, I ensured error-free functionality and efficiency through design and implementation optimizations using HTML, CSS, and Bootstrap, exploring advanced solutions with Angular and React. Operating within an agile framework, I managed multiple service-providing websites, emphasizing user-centric design principles to align with strategic objectives from requirements gathering to delivery.</p>
-                </div>            
             </div>
-        </div>           
+            <div class="col-md-6">
+                <div class="about-right">
+                    <img src="/images/about.gif" alt="Profile Picture" class="img-fluid">
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
-<section id="education">
+
+<section id="relevant-experience" class="py-5">
     <div class="container">
-        <div class="education-left">
-            <h2>Education</h2>
-            <h2>Certification &</h2>
-            <h2>Other Works</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="experience-left">
+                    <h2>Relevant Experience</h2>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="experience-right">
+                    <div class="row">
+                        <div class="job">
+                            <div class="col-md-3">
+                                <div class="job-year">
+                                    <p>May (2023-2024)</p>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="job-details">
+                                    <h2>Graduate Research Assistant</h2>
+                                    <h3>Northeastern University</h3>
+                                    <p>In my role as a data scientist, I managed intricate ICU data, ensuring its accuracy and completeness. Employing advanced techniques like missing value imputation, I maintained data integrity, laying the groundwork for robust analysis and informed decision-making in critical care scenarios. Additionally, I spearheaded a project analyzing 2.3 million medical records to detect cardiovascular diseases. Utilizing sophisticated algorithms, I developed a healthcare classification system, improving disease detection accuracy and patient stratification. This initiative significantly enhanced healthcare outcomes and treatment efficacy.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="job">
+                            <div class="col-md-3">
+                                <div class="job-year">
+                                    <p>Jun (2020-2022)</p>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="job-details">
+                                    <h2>Data Scientist</h2>
+                                    <h3>ekZero Software Service</h3>
+                                    <p>I led projects focused on enhancing website development, user experience, and operational efficiency. By gathering feedback from a sizable user base, I informed strategic enhancements resulting in heightened user satisfaction and engagement levels. Utilizing the Duda platform, I developed seamless websites for a large user cohort, prioritizing user experience and achieving a significant speed improvement through Vue.js optimization. Additionally, I ensured error-free functionality and efficiency through design and implementation optimizations using HTML, CSS, and Bootstrap, exploring advanced solutions with Angular and React. Operating within an agile framework, I managed multiple service-providing websites, emphasizing user-centric design principles to align with strategic objectives from requirements gathering to delivery.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>         
+            </div>
         </div>
-        <div class="education-right">
-            <div class="college">
-                <div class="college-details">
-                    <h2>Master of Science in Information Systems</h2>
-                    <h3>Northeastern University, Boston, MA</h3>  
-                    <h3>2024</h3>                                    
-                </div>            
-            </div>
-            <hr></hr>
-            <div class="college">
-                <div class="college-details">
-                    <h2>Bachelors of Engineering in Information Technology</h2>
-                    <h3>Gujarat Technological University, India</h3>  
-                    <h3>2020</h3>                                    
-                </div>            
-            </div>
-            <hr></hr>
-            <div class="college">
-                <div class="college-details">
-                    <h2>Volunteer - Vice President</h2>
-                    <h3>Husky Systers Code (Northeastern University)</h3>  
-                    <h3>June 2023 to January 2024</h3>       
-                    <h3>Arranging Event, Managing team, Networking, Connect and Collaborate with Speakers</h3>                             
-                </div>            
-            </div>
-        </div>           
     </div>
 </section>
 
-<!-- <section id="skills">
-    <div class="container">
-        <div class="skills-left">
-            <h2>Skills & </h2>
-            <h2>Proficiencies</h2>
-        </div>
-        <div class="skills-right">
-            <div class="skills">
-                <div class="skills-details">
-                    <h2>Langugaes</h2>
-                    <h3>Python((NumPy, Pandas, Scikit-Learn, Matplotlib, Seaborn, TensorFlow, Keras))</h3>  
-                    <h3>SQL</h3>  
-                    <h3>MYSQL</h3>                                                                      
-                </div>            
-            </div>
-            <div class="skills">
-                <div class="skills-details">
-                    <h2>Methods</h2>
-                    <h3>Data Analysis</h3>
-                    <h3>Data Visualization</h3>
-                    <h3>Data Mining</h3>  
-                    <h3>Machine Learning</h3>       
-                    <h3>Deep Learning</h3>   
-                    <h3>Large Language Model</h3>                                
-                    <h3>Natural Language Processing</h3> 
-                    <h3>Statistics</h3>  
-                </div>            
-            </div>
-            <div class="skills">
-                <div class="skills-details">
-                    <h2>Tools</h2>
-                    <h3>Tableau</h3>  
-                    <h3>Power Bi</h3>       
-                    <h3>Excel</h3> 
-                    <h3>Git</h3>                              
-                </div>            
-            </div>
-        </div>           
-    </div>
-</section> -->
 
-<section id="projects">
+<section id="education" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="education-left">
+                    <h2>Education</h2>
+                    <h2>& Other Works</h2>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="education-right">
+                    <div class="college">
+                        <div class="college-details">
+                            <h2>Master of Science in Information Systems</h2>
+                            <h3>Northeastern University, Boston, MA</h3>
+                            <h3>2024</h3>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="college">
+                        <div class="college-details">
+                            <h2>Bachelor of Engineering in Information Technology</h2>
+                            <h3>Gujarat Technological University, India</h3>
+                            <h3>2020</h3>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="college">
+                        <div class="college-details">
+                            <h2>Volunteer - Vice President</h2>
+                            <h3>Husky Systers Code (Northeastern University)</h3>
+                            <h3>June 2023 to January 2024</h3>
+                            <h3>Arranging Event, Managing team, Connect and Collaborate with Speakers</h3>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="college">
+                        <div class="college-details">
+                            <h2>Volunteer (MC) - Master Of Ceremonies</h2>
+                            <h3>Open Data Science Conference (ODSC 2024)</h3>
+                            <h3>23rd - 25th April, 2024</h3>
+                            <h3>Introduce and collaborate with speakers, Managing workshops and speaker sessions, Networking, Hosting</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="projects" class="py-5">
     <div class="container">
 
         <h2 class="title">Projects</h2>
         
-        <div class="project">
-            <h3><a href="https://github.com/ParjitaMunshi/Moderation-Application">Moderation App</a></h3>
-            <div class="project-content">
-                <p>Development of a toxic comment classification model leveraging LSTM, Random Forest, and Multinomial Naïve Bayes algorithms, achieving an 85% accuracy rate. This initiative significantly improved moderation efficiency and ensured effective management of online content by accurately identifying harmful comments. Additionally, I enhanced the model's performance by 15% through the implementation of TF-IDF and text-vectorization methods, refining feature representation techniques for better toxic language identification. Furthermore, I revamped the interpretability of predictions using LIME, identifying weights of high-to-low toxicity words, resulting in a 25% improvement in model interpretability. This enhanced understanding and trust in the model's decisions, fostering a safer and more transparent online environment.</p>
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="project">
+                    <h3><a href="https://github.com/ParjitaMunshi/MyTravelChatbot">MyTravel Chatbot</a></h3>
+                    <div class="project-content">
+                        <a href="https://github.com/ParjitaMunshi/MyTravelChatbot"><img src="/images/chatbot.png" alt="Chatbot" class="img-fluid"></a>
+                        <p>
+                            The My Travel Chatbot project is a dynamic web-based application that harnesses the power of OpenAI's GPT-3.5 model and a Python-Flask backend to offer users seamless access to travel information and assistance. With a user-friendly interface built using React.js, users can interact with the chatbot in real-time, inputting travel queries and receiving tailored responses instantly. Leveraging a SQLite database, the chatbot retrieves relevant travel details, including flight information and accommodations, ensuring a personalized and efficient user experience. This project aims to streamline the travel planning process, providing travelers with convenient access to comprehensive travel assistance at their fingertips.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="project">
+                    <h3><a href="https://github.com/ParjitaMunshi/Moderation-Application">Moderation App</a></h3>
+                    <div class="project-content">
+                        <a href="https://github.com/ParjitaMunshi/Moderation-Application"><img src="/images/moderation_app.png" alt="Moderation App" class="img-fluid"></a>
+                        <p>Development of a toxic comment classification model leveraging LSTM, Random Forest, and Multinomial Naïve Bayes algorithms, achieving an 85% accuracy rate. This initiative significantly improved moderation efficiency and ensured effective management of online content by accurately identifying harmful comments. Additionally, I enhanced the model's performance by 15% through the implementation of TF-IDF and text-vectorization methods, refining feature representation techniques for better toxic language identification. Furthermore, I revamped the interpretability of predictions using LIME, identifying weights of high-to-low toxicity words, resulting in a 25% improvement in model interpretability. This enhanced understanding and trust in the model's decisions, fostering a safer and more transparent online environment.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="project">
+                    <h3><a href="https://github.com/ParjitaMunshi/Amazon-Reviews-Classification">Amazon Review Classification</a></h3>
+                    <div class="project-content">
+                        <a href="https://github.com/ParjitaMunshi/Amazon-Reviews-Classification"><img src="/images/amazon_review.jpg" alt="Amazon Review Classification" class="img-fluid"></a>
+                        <p>Performed comprehensive sentiment analysis initiative on a dataset comprising 5000 Amazon reviews, extracting valuable insights into customer sentiments. By employing a combination of advanced machine learning algorithms such as Naive Bayes, Support Vector Machines, LSTM, BERT, and OpenAI techniques, I boosted review classification accuracy and efficiency by 15%, enhancing decision-making with actionable insights. Additionally, I leveraged ChatGPT for natural language processing, achieving an impressive 87% accuracy in sentiment analysis. This optimized the interpretation of customer feedback and contributed to successful decision-making processes, ultimately improving product understanding and enhancing customer satisfaction.</p>
+                    </div>
+                </div>
             </div>
         </div>
         
-        <div class="project">
-            <h3><a href="https://github.com/ParjitaMunshi/Amazon-Reviews-Classification">Amazon Review Classification</a></h3>
-            <div class="project-content">
-                <p>Performed comprehensive sentiment analysis initiative on a dataset comprising 5000 Amazon reviews, extracting valuable insights into customer sentiments. By employing a combination of advanced machine learning algorithms such as Naive Bayes, Support Vector Machines, LSTM, BERT, and OpenAI techniques, I boosted review classification accuracy and efficiency by 15%, enhancing decision-making with actionable insights. Additionally, I leveraged ChatGPT for natural language processing, achieving an impressive 87% accuracy in sentiment analysis. This optimized the interpretation of customer feedback and contributed to successful decision-making processes, ultimately improving product understanding and enhancing customer satisfaction.</p>
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="project">
+                    <h3><a href="https://github.com/ParjitaMunshi/Political-Violence-and-News-Analysis-Nigeria">Political Violence and News Analysis Nigeria</a></h3>
+                    <div class="project-content">
+                        <a href="https://github.com/ParjitaMunshi/Political-Violence-and-News-Analysis-Nigeria"><img src="/images/nigeria_images.jpg" alt="Political Violence and News Analysis Nigeria" class="img-fluid"></a>
+                        <p>Analyzed political violence and news incidents in Nigeria, employing a range of statistical techniques and visualizations to support strategic decision-making. By delving into time-related data and geographic patterns, I unearthed valuable insights into the dynamics of political violence and its correlation with news incidents. Through in-depth analysis, I identified common events, and high-risk factors, and conducted monthly trends analysis of news data. Utilizing techniques such as word cloud visualization, I effectively communicated key findings, shedding light on prevailing issues and informing proactive measures for mitigating risks and promoting stability in Nigeria.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-        
-        <div class="project">
-            <h3><a href="https://github.com/ParjitaMunshi/Political-Violence-and-News-Analysis-Nigeria">Political Violence and News Analysis Nigeria</a></h3>
-            <div class="project-content">
-                <p>Analyzed political violence and news incidents in Nigeria, employing a range of statistical techniques and visualizations to support strategic decision-making. By delving into time-related data and geographic patterns, I unearthed valuable insights into the dynamics of political violence and its correlation with news incidents. Through in-depth analysis, I identified common events, and high-risk factors, and conducted monthly trends analysis of news data. Utilizing techniques such as word cloud visualization, I effectively communicated key findings, shedding light on prevailing issues and informing proactive measures for mitigating risks and promoting stability in Nigeria.</p>
-            </div>
-        </div>
-        
-        <div class="project">
-            <h3><a href="https://github.com/ParjitaMunshi/Bank-Loan-Data-Analysis">Bank Loan Data Analysis</a></h3>
-            <div class="project-content">
-                <p>This project uses Power BI to analyze bank loan data thoroughly to produce insights that can be put to use in the banking industry. Including total cash, interest received, and important loan performance indicators, the project successfully distinguished between good and poor loans by utilizing a combination of exploratory data mining approaches, statistical analysis, and predictive modeling. The insights gained from the initiative, which covered everything from borrower behavior patterns to factors influencing loan performance, resulted in strategic suggestions aimed at streamlining the loan approval process, reducing risks, and customizing financial solutions. This project demonstrates the capacity to extract actionable insights from complex loan data to achieve organizational performance within the banking domain. It also serves as a testimonial to skill in data analysis, visualization, and strategic decision-making.</p>
+            <div class="col-lg-4 mb-4">
+                <div class="project">
+                    <h3><a href="https://github.com/ParjitaMunshi/Bank-Loan-Data-Analysis">Bank Loan Data Analysis</a></h3>
+                    <div class="project-content">
+                        <a href="https://github.com/ParjitaMunshi/Bank-Loan-Data-Analysis"><img src="/images/analysis.png" alt="Bank Loan Data Analysis" class="img-fluid"></a>
+                        <p>This project uses Power BI to analyze bank loan data thoroughly to produce insights that can be put to use in the banking industry. Including total cash, interest received, and important loan performance indicators, the project successfully distinguished between good and poor loans by utilizing a combination of exploratory data mining approaches, statistical analysis, and predictive modeling. The insights gained from the initiative, which covered everything from borrower behavior patterns to factors influencing loan performance, resulted in strategic suggestions aimed at streamlining the loan approval process, reducing risks, and customizing financial solutions. This project demonstrates the capacity to extract actionable insights from complex loan data to achieve organizational performance within the banking domain. It also serves as a testimonial to skill in data analysis, visualization, and strategic decision-making.</p>
+                    </div>
+                </div>
             </div>
         </div>
         
     </div>
 </section>
+
+
 <section id="connect-with-me">
     <div class="container">
         <div>
             <h2>Connect with Me</h2>
             <p>Email: parjita.munshi04@gmail.com</p>
-            <p>Phone: 617-505-8825</p>
         </div>
     </div>
 </section>
 
 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script>
     // JavaScript for smooth scrolling
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
