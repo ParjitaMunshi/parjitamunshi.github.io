@@ -71,6 +71,17 @@ nav ul li a:hover {
     background-color: #f4f1eb;
     margin-top: 58px;
 }
+#introduction .left{
+    display: flex;
+    justify-content: center;
+}
+
+.left .img-fluid{
+    width: 320px;
+    height: 350px;  
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
 
 .right {
     font-family: 'PT Sans', sans-serif;
@@ -249,14 +260,13 @@ nav ul li a:hover {
     font-size: 43px;
 }
 
-#projects h2 {
-    grid-column: 1 / -1;
-    
-}
-
 #projects .project {
     border: 1px solid #ccc;
     padding: 20px;
+}
+
+#projects .project:hover{
+    
 }
 
 #projects .project h3 {
