@@ -265,19 +265,40 @@ nav ul li a:hover {
     padding: 20px;
 }
 #projects .project h3{
-    font-size: 24px;
-    font-style: bold;
-}
-
-#projects .project:hover{
-    
-}
-
-#projects .project h3 {
     font-size: 18px;
-    margin-bottom: 10px;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 
+.project {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project-content {
+    padding: 20px 0px;
+    height: 200px; /* Set a fixed height for consistency */
+    overflow: hidden; /* Hide overflow content */
+}
+
+.project a:hover img {
+    opacity: 0.7;
+}
+
+.project a {
+    display: block;
+    position: relative;
+}
+
+
+.project a:hover::after {
+    opacity: 1;
+}
 
 
 #projects .project-content img {
@@ -289,6 +310,7 @@ nav ul li a:hover {
 #projects .project-content p {
     font-size: 14px;
     line-height: 1.5;
+    text-align: justify;
 }
 
 /* Connect with Me section */
