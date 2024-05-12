@@ -282,6 +282,8 @@ nav ul li a:hover {
 
 .project-content {
     padding: 20px 0px;
+}
+.project-content p{
     height: 200px; /* Set a fixed height for consistency */
     overflow: hidden; /* Hide overflow content */
 }
