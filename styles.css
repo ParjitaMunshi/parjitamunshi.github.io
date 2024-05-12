@@ -264,6 +264,10 @@ nav ul li a:hover {
     border: 1px solid #ccc;
     padding: 20px;
 }
+#projects .project h3{
+    font-size: 24px;
+    font-style: bold;
+}
 
 #projects .project:hover{
     
