@@ -188,7 +188,6 @@ nav ul li a:hover {
 
 #relevant-experience .job {
     margin: 30px 0px;
-    display: flex;
 }
 
 #relevant-experience .job-company {
@@ -331,20 +330,187 @@ nav ul li a:hover {
 
 
 /* Media Queries */
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
     header{
+        .header-left{
+            text-align: center;
+        }
+
         h1{
             font-size: 12px;
         }
         .nav-link  {
             font-size: 12px;
         }
-    }    
+    }  
+    #introduction{
+        margin-top: 70px;
+
+        .left .img-fluid{
+            width: 250px;
+            height: 275px;  
+        }
+        .right h2 {
+            font-size: 32px;
+            font-weight: bold;
+        }
+        .right h3 {
+            font-size: 28px;
+        }
+    }
+    #about{
+        .about-left h2{
+            font-size: 32px;
+            margin-bottom: 15px;
+        } 
+    }
+    #relevant-experience{
+        .experience-left h2{
+            font-size: 32px;
+        }
+    }
+    #education{
+        .education-left h2{
+            font-size: 32px;
+        }
+    }
+    #projects{
+        .title{
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+        .project-content p{
+            height: 180px; /* Set a fixed height for consistency */
+            overflow: hidden; /* Hide overflow content */
+        }
+    }
+    #connect-with-me{
+        h2{
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+    }
 }
 
 
 @media only screen and (max-width: 768px) {
+    header{
+        .nav-link  {
+            padding: 10px;
+        }
+    }  
     .container {
         padding: 10px;
     }
+    #introduction{
+        margin-top: 90px;
+
+        .left .img-fluid{
+            width: 180px;
+            height: 200px;  
+        }
+        .right h2 {
+            margin-top: 20px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .right h3 {
+            font-size: 20px;
+        }
+    }
+    #about{
+        .about-left h2{
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 15px;
+        } 
+    }
+    #relevant-experience{
+        .experience-left h2{
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+    #education{
+        .education-left h2{
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+    #projects{
+        .title{
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+    }
+    #connect-with-me{
+        h2{
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 576px) {
+    #introduction{
+        margin-top: 135px;
+
+        .left .img-fluid{
+            width: 180px;
+            height: 200px;  
+        }
+        .right h2 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .right h3 {
+            font-size: 18px;
+        }
+    }  
+    #about{
+        .about-left{
+            margin-bottom: 20px;
+        }
+        .about-left h2{
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+        .about-content{
+            text-align: center;
+        }
+    }
+    #relevant-experience{
+        .experience-left h2{
+            font-size: 20px;
+        }
+    }
+    #education{
+        .education-left h2{
+            font-size: 20px;
+        }
+    }
+    #projects{
+        .title{
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+        .project-content p{
+            height: 300px; /* Set a fixed height for consistency */
+        }
+    }
+    #connect-with-me{
+        h2{
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+    }
+    
 }
