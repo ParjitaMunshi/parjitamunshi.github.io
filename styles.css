@@ -287,14 +287,6 @@ nav ul li a:hover {
     height: 293px; /* Set a fixed height for consistency */
     overflow: hidden; /* Hide overflow content */
 }
-.project a img {
-    opacity: 0.7;
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-.project a:hover img {
-    opacity: 1.0;
-}
 
 .project a {
     display: block;
