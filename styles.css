@@ -78,7 +78,7 @@ nav ul li a:hover {
 
 .left .img-fluid{
     width: 320px;
-    height: 350px;  
+    height: 320px;  
     border: 1px solid #000000;
     border-radius: 50%;
 }
@@ -348,7 +348,7 @@ nav ul li a:hover {
 
         .left .img-fluid{
             width: 250px;
-            height: 275px;  
+            height: 250px;  
         }
         .right h2 {
             font-size: 32px;
@@ -407,7 +407,7 @@ nav ul li a:hover {
 
         .left .img-fluid{
             width: 180px;
-            height: 200px;  
+            height: 180px;  
         }
         .right h2 {
             margin-top: 20px;
@@ -465,7 +465,7 @@ nav ul li a:hover {
 
         .left .img-fluid{
             width: 180px;
-            height: 200px;  
+            height: 180px;  
         }
         .right h2 {
             font-size: 20px;
