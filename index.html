@@ -190,69 +190,93 @@
 
         <h2 class="title">Projects</h2>
         
-        <div class="row">
-            <div class="col-lg-4 mb-4">
-                <div class="project">
-                    <h3>MyTravel Chatbot</h3>
-                    <div class="project-content">
-                        <a href="https://github.com/ParjitaMunshi/MyTravelChatbot"><img src="/images/chatbot.png" alt="Chatbot" class="img-fluid"></a>
-                        <p>
-                            The My Travel Chatbot project is a dynamic web-based application that showcases the use of OpenAI's GPT-3.5 model to derive any travel-related queries answer, developed with SQLite database, use of python-flask in the backend, frontend built using React.js, users can interact with the chatbot in real-time, inputting travel queries and receiving responses instantly. This project aims to streamline the travel planning process, providing travelers with convenient access to comprehensive travel assistance at their fingertips.</p>
+        <!-- Add tab navigation -->
+        <ul class="nav nav-tabs" id="projectTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="ui-tab" data-toggle="tab" href="#ui" role="tab" aria-controls="ui" aria-selected="true">UI Developer Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="data-analyst-tab" data-toggle="tab" href="#data-analyst" role="tab" aria-controls="data-analyst" aria-selected="false">Data Analyst Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="data-science-tab" data-toggle="tab" href="#data-science" role="tab" aria-controls="data-science" aria-selected="false">Data Science Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="ml-tab" data-toggle="tab" href="#ml" role="tab" aria-controls="ml" aria-selected="false">ML Projects</a>
+            </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content" id="projectTabContent">
+            <div class="tab-pane fade show active" id="ui" role="tabpanel" aria-labelledby="ui-tab">
+                <div class="row">
+                    <div class="col-lg-4 mb-4">
+                        <div class="project">
+                            <h3>My Portfolio</h3>
+                            <div class="project-content">
+                                <a href="https://github.com/ParjitaMunshi/parjitamunshi.github.io"><img src="/images/portfolio.png" alt="My Portfolio" class="img-fluid"></a>
+                                <p>My portfolio website is a showcase of my web development hands-on experience. I built my portfolio from scratch with HTML, CSS, JavaScript, and Bootstrap, it reflects my my front-end development and design aesthetics, attention to detail, dedication, and interest in creating engaging user experiences. Moreover, I ensured responsive design principles for optimal viewing experiences across devices. Moreover, it shows details to take care of like the selection and editing of images, contributing to the visually appealing presentation of my work and enthusiasm in the User Interface field.</p>
+                            </div>
+                            <p><a href="https://github.com/ParjitaMunshi/parjitamunshi.github.io">Show More...</a></p>
+                        </div>
                     </div>
-                    <p><a href="https://github.com/ParjitaMunshi/MyTravelChatbot">Show More...</a></p>
+                    <!-- Add more UI Developer projects here -->
                 </div>
             </div>
-            <div class="col-lg-4 mb-4">
-                <div class="project">
-                    <h3>Moderation App</h3>
-                    <div class="project-content">
-                        <a href="https://github.com/ParjitaMunshi/Moderation-Application"><img src="/images/moderation_app.png" alt="Moderation App" class="img-fluid"></a>
-                        <p>Developed toxic comment classification model to identify toxic and nontoxic comments. Used DL and ML models LSTM, Random Forest, and Multinomial Naïve Bayes, achieved 85% accuracy rate. Techniques like TF-IDF and text-vectorization help to clean data and present it in a more accurate way which helps to identify toxic words most effectively. Utilized LIME identifier to find which words contribute most sorted in high to low by toxicity percentage to identify the comments are toxic. By this project, we can easily identify which comments are harmful. </p>
+            <div class="tab-pane fade" id="data-analyst" role="tabpanel" aria-labelledby="data-analyst-tab">
+                <div class="row">
+                    <div class="col-lg-4 mb-4">
+                        <div class="project">
+                            <h3>Bank Loan Data Analysis</h3>
+                            <div class="project-content">
+                                <a href="https://github.com/ParjitaMunshi/Bank-Loan-Data-Analysis"><img src="/images/analysis.png" alt="Bank Loan Data Analysis" class="img-fluid"></a>
+                                <p>Used Microsoft PowerBI and Advance Excel to analyze bank loan data thoroughly to produce insights that can be used in the banking industry. Included factors of total cash, interest received, and important loan performance indicators, the project successfully distinguished between good and poor loans by different combination of exploratory data mining approaches, statistical analysis, and predictive modeling. The insights covered everything from borrower behavior patterns to factors influencing loan performance, which helps streamline the loan approval process, reduce risks, and customize financial solutions.</p>
+                            </div>
+                            <p><a href="https://github.com/ParjitaMunshi/Bank-Loan-Data-Analysis">Show More...</a></p>
+                        </div>
                     </div>
-                    <p><a href="https://github.com/ParjitaMunshi/Moderation-Application">Show More...</a></p>
+                    <!-- Add more Data Analyst projects here -->
                 </div>
             </div>
-            <div class="col-lg-4 mb-4">
-                <div class="project">
-                    <h3>Amazon Review Classification</h3>
-                    <div class="project-content">
-                        <a href="https://github.com/ParjitaMunshi/Amazon-Reviews-Classification"><img src="/images/amazon_review.jpg" alt="Amazon Review Classification" class="img-fluid"></a>
-                        <p>Performed comprehensive sentiment analysis on 5000 Amazon reviews self-scrapped datasets, extracting valuable insights into customer sentiments. Implemented Naive Bayes, Support Vector Machines, LSTM, BERT, and OpenAI techniques, that boosted review classification accuracy and efficiency by 15%, and enhanced classification decisions with insights. Explored ChatGPT for NLP task, achieved 87% accuracy in sentiment analysis compared to other models. This project was used to optimize customer feedback and contributed to first-time customers choosing the best product according to review.</p>
+            <div class="tab-pane fade" id="data-science" role="tabpanel" aria-labelledby="data-science-tab">
+                <div class="row">
+                    <div class="col-lg-4 mb-4">
+                        <div class="project">
+                            <h3>Amazon Review Classification</h3>
+                            <div class="project-content">
+                                <a href="https://github.com/ParjitaMunshi/Amazon-Reviews-Classification"><img src="/images/amazon_review.jpg" alt="Amazon Review Classification" class="img-fluid"></a>
+                                <p>Performed comprehensive sentiment analysis on 5000 Amazon reviews self-scrapped datasets, extracting valuable insights into customer sentiments. Implemented Naive Bayes, Support Vector Machines, LSTM, BERT, and OpenAI techniques, that boosted review classification accuracy and efficiency by 15%, and enhanced classification decisions with insights. Explored ChatGPT for NLP task, achieved 87% accuracy in sentiment analysis compared to other models. This project was used to optimize customer feedback and contributed to first-time customers choosing the best product according to review.</p>
+                            </div>
+                            <a href="https://github.com/ParjitaMunshi/Amazon-Reviews-Classification">Show More...</a>
+                        </div>
                     </div>
-                    <a href="https://github.com/ParjitaMunshi/Amazon-Reviews-Classification">Show More...</a>
+                    <!-- Add more Data Science projects here -->
                 </div>
             </div>
-        </div>
-        
-        <div class="row">
-            <div class="col-lg-4 mb-4">
-                <div class="project">
-                    <h3>Nigeria's News-Political Analysis</h3>
-                    <div class="project-content">
-                        <a href="https://github.com/ParjitaMunshi/Political-Violence-and-News-Analysis-Nigeria"><img src="/images/nigeria.png" alt="Political-News Analysis Nigeria" class="img-fluid"></a>
-                        <p>Analyzed political violence and news incidents in Nigeria by Python and its visualization libraries, and experimented with a range of statistical techniques for strategic decision-making. Analyzing time-related data and geographic patterns, we uncovered valuable insights into political violence and its correlation with news incidents. Through in-depth analysis, identified common events, and high-risk factors, and conducted monthly trends analysis of news data by word cloud visualization. This project effectively communicated visuals and real scenarios which helped to take proactive measures to avoid risks, promoting stability in Nigeria.</p>
+            <div class="tab-pane fade" id="ml" role="tabpanel" aria-labelledby="ml-tab">
+                <div class="row">
+                    <div class="col-lg-4 mb-4">
+                        <div class="project">
+                            <h3>MyTravel Chatbot</h3>
+                            <div class="project-content">
+                                <a href="https://github.com/ParjitaMunshi/MyTravelChatbot"><img src="/images/chatbot.png" alt="Chatbot" class="img-fluid"></a>
+                                <p>
+                                    The My Travel Chatbot project is a dynamic web-based application that showcases the use of OpenAI's GPT-3.5 model to derive any travel-related queries answer, developed with SQLite database, use of python-flask in the backend, frontend built using React.js, users can interact with the chatbot in real-time, inputting travel queries and receiving responses instantly. This project aims to streamline the travel planning process, providing travelers with convenient access to comprehensive travel assistance at their fingertips.</p>
+                            </div>
+                            <p><a href="https://github.com/ParjitaMunshi/MyTravelChatbot">Show More...</a></p>
+                        </div>
                     </div>
-                    <p><a href="https://github.com/ParjitaMunshi/Political-Violence-and-News-Analysis-Nigeria">Show More...</a></p>
-                </div>
-            </div>
-            <div class="col-lg-4 mb-4">
-                <div class="project">
-                    <h3>Bank Loan Data Analysis</h3>
-                    <div class="project-content">
-                        <a href="https://github.com/ParjitaMunshi/Bank-Loan-Data-Analysis"><img src="/images/analysis.png" alt="Bank Loan Data Analysis" class="img-fluid"></a>
-                        <p>Used Microsoft PowerBI and Advance Excel to analyze bank loan data thoroughly to produce insights that can be used in the banking industry. Included factors of total cash, interest received, and important loan performance indicators, the project successfully distinguished between good and poor loans by different combination of exploratory data mining approaches, statistical analysis, and predictive modeling. The insights covered everything from borrower behavior patterns to factors influencing loan performance, which helps streamline the loan approval process, reduce risks, and customize financial solutions.</p>
+                    <div class="col-lg-4 mb-4">
+                        <div class="project">
+                            <h3>Moderation App</h3>
+                            <div class="project-content">
+                                <a href="https://github.com/ParjitaMunshi/Moderation-Application"><img src="/images/moderation_app.png" alt="Moderation App" class="img-fluid"></a>
+                                <p>Developed toxic comment classification model to identify toxic and nontoxic comments. Used DL and ML models LSTM, Random Forest, and Multinomial Naïve Bayes, achieved 85% accuracy rate. Techniques like TF-IDF and text-vectorization help to clean data and present it in a more accurate way which helps to identify toxic words most effectively. Utilized LIME identifier to find which words contribute most sorted in high to low by toxicity percentage to identify the comments are toxic. By this project, we can easily identify which comments are harmful. </p>
+                            </div>
+                            <p><a href="https://github.com/ParjitaMunshi/Moderation-Application">Show More...</a></p>
+                        </div>
                     </div>
-                    <p><a href="https://github.com/ParjitaMunshi/Bank-Loan-Data-Analysis">Show More..</a></p>
-                </div>
-            </div>
-            <div class="col-lg-4 mb-4">
-                <div class="project">
-                    <h3>My Portfolio</h3>
-                    <div class="project-content">
-                        <a href="https://github.com/ParjitaMunshi/parjitamunshi.github.io"><img src="/images/portfolio.png" alt="My Portfolio" class="img-fluid"></a>
-                        <p>My portfolio website is a showcase of my web development hands-on experience. I built my portfolio from scratch with HTML, CSS, JavaScript, and Bootstrap, it reflects my my front-end development and design aesthetics, attention to detail, dedication, and interest in creating engaging user experiences. Moreover, I ensured responsive design principles for optimal viewing experiences across devices. Moreover, it shows details to take care of like the selection and editing of images, contributing to the visually appealing presentation of my work and enthusiasm in the User Interface field.</p>
-                    </div>
-                    <p><a href="https://github.com/ParjitaMunshi/parjitamunshi.github.io">Show More..</a></p>
+                    <!-- Add more ML projects here -->
                 </div>
             </div>
         </div>
