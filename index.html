@@ -193,7 +193,7 @@
         <!-- Add tab navigation -->
         <ul class="nav nav-tabs" id="projectTab" role="tablist">
             <li class="nav-item">
-                <a class="nav-link active" id="data-science-tab" data-toggle="tab" href="#data-science" role="tab" aria-controls="data-science" aria-selected="false">Data Science and Machine Learning</a>
+                <a class="nav-link" id="data-science-tab" data-toggle="tab" href="#data-science" role="tab" aria-controls="data-science" aria-selected="false">Data Science and Machine Learning</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" id="data-analyst-tab" data-toggle="tab" href="#data-analyst" role="tab" aria-controls="data-analyst" aria-selected="false">Data Analysis</a>
@@ -202,13 +202,13 @@
                 <a class="nav-link" id="ui-tab" data-toggle="tab" href="#ui" role="tab" aria-controls="ui" aria-selected="true">UI/UX</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="ui-tab" data-toggle="tab" href="#mlops" role="tab" aria-controls="mlops" aria-selected="true">MLOps</a>
+                <a class="nav-link" id="mlops-tab" data-toggle="tab" href="#mlops" role="tab" aria-controls="mlops" aria-selected="true">MLOps</a>
             </li>
         </ul>
 
         <!-- Tab panes -->
         <div class="tab-content" id="projectTabContent">
-            <div class="tab-pane fade show active" id="data-science" role="tabpanel" aria-labelledby="data-science-tab">
+            <div class="tab-pane fade show" id="data-science" role="tabpanel" aria-labelledby="data-science-tab">
                 <div class="row">
                     <!-- Add more Data Science projects here -->
                     <div class="col-lg-4 mb-4">
@@ -364,20 +364,19 @@
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="mlops" role="tabpanel" aria-labelledby="ml-ops-tab">
+            <div class="tab-pane fade" id="mlops" role="tabpanel" aria-labelledby="mlops-tab">
                 <div class="row">
-                    <!-- Add more Data Science projects here -->
                     <div class="col-lg-4 mb-4">
                         <div class="project">
-                            <h3>Wine Qualitiy Prediction with MLFlow</h3>
+                            <h3>End-to-End ML Project with MLFlow</h3>
                             <div class="project-content">
-                                <a href="https://github.com/ParjitaMunshi/end-to-end-ML-project-with-MLFlow"><img src="/images/wine-mlflow.jpg" alt="mlflow" class="img-fluid"></a>
-                                <p>
-                                    The My Travel Chatbot project is a dynamic web-based application that showcases the use of OpenAI's GPT-3.5 model to derive any travel-related queries answer, developed with SQLite database, use of python-flask in the backend, frontend built using React.js, users can interact with the chatbot in real-time, inputting travel queries and receiving responses instantly. This project aims to streamline the travel planning process, providing travelers with convenient access to comprehensive travel assistance at their fingertips.</p>
+                                <a href="https://github.com/ParjitaMunshi/end-to-end-ML-project-with-MLFlow"><img src="/images/mlflow.jpg" alt="End-to-End ML Project with MLFlow" class="img-fluid"></a>
+                                <p>In this project, MLFlow used to manage the entire machine learning lifecycle, including experimentation, reproducibility, and deployment. The focus was on developing a robust pipeline for an end-to-end ML project, ensuring efficient tracking of experiments and model versioning.</p>
                             </div>
-                            <p><a href="https://github.com/ParjitaMunshi/end-to-end-ML-project-with-MLFlow">Show More...</a></p>
+                            <a href="https://github.com/ParjitaMunshi/end-to-end-ML-project-with-MLFlow">Show More...</a>
                         </div>
                     </div>
+                    <!-- Add more MLOps projects here if needed -->
                 </div>
             </div>
         </div>        
@@ -409,6 +408,40 @@
             });
         });
     });
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    function activateTabFromHash() {
+        const hash = window.location.hash;
+        if (hash) {
+            // Deactivate all tabs and tab content
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.remove('active');
+            });
+            document.querySelectorAll('.tab-pane').forEach(pane => {
+                pane.classList.remove('active', 'show');
+            });
+
+            // Activate the tab link that matches the hash
+            const tabLink = document.querySelector(`a[href="${hash}"]`);
+            if (tabLink) {
+                tabLink.classList.add('active');
+            }
+
+            // Activate the tab content that matches the hash
+            const tabContent = document.querySelector(hash);
+            if (tabContent) {
+                tabContent.classList.add('active', 'show');
+            }
+        }
+    }
+
+    // Run the function on page load
+    activateTabFromHash();
+
+    // Run the function whenever the hash changes
+    window.addEventListener('hashchange', activateTabFromHash);
+});
 </script>
 </body>
 </html>
