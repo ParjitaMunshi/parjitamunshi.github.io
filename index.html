@@ -193,22 +193,22 @@
         <!-- Add tab navigation -->
         <ul class="nav nav-tabs" id="projectTab" role="tablist">
             <li class="nav-item">
-                <a class="nav-link" id="data-science-tab" data-toggle="tab" href="#data-science" role="tab" aria-controls="data-science" aria-selected="false">Data Science and Machine Learning</a>
+                <a class="nav-link" id="data-science-tab" data-toggle="tab" href="#data-science-tab" role="tab" aria-controls="data-science" aria-selected="false">Data Science and Machine Learning</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="data-analyst-tab" data-toggle="tab" href="#data-analyst" role="tab" aria-controls="data-analyst" aria-selected="false">Data Analysis</a>
+                <a class="nav-link" id="data-analyst-tab" data-toggle="tab" href="#data-analyst-tab" role="tab" aria-controls="data-analyst" aria-selected="false">Data Analysis</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="ui-tab" data-toggle="tab" href="#ui" role="tab" aria-controls="ui" aria-selected="true">UI/UX</a>
+                <a class="nav-link" id="ui-tab" data-toggle="tab" href="#ui-tab" role="tab" aria-controls="ui" aria-selected="true">UI/UX</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="mlops-tab" data-toggle="tab" href="#mlops" role="tab" aria-controls="mlops" aria-selected="true">MLOps</a>
+                <a class="nav-link" id="mlops-tab" data-toggle="tab" href="#mlops-tab" role="tab" aria-controls="mlops" aria-selected="true">MLOps</a>
             </li>
         </ul>
 
         <!-- Tab panes -->
         <div class="tab-content" id="projectTabContent">
-            <div class="tab-pane fade show" id="data-science" role="tabpanel" aria-labelledby="data-science-tab">
+            <div class="tab-pane fade show" id="data-science-tab" role="tabpanel" aria-labelledby="data-science-tab">
                 <div class="row">
                     <!-- Add more Data Science projects here -->
                     <div class="col-lg-4 mb-4">
@@ -274,7 +274,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="data-analyst" role="tabpanel" aria-labelledby="data-analyst-tab">
+            <div class="tab-pane fade" id="data-analyst-tab" role="tabpanel" aria-labelledby="data-analyst-tab">
                 <div class="row">
                     <div class="col-lg-4 mb-4">
                         <div class="project">
@@ -319,7 +319,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="ui" role="tabpanel" aria-labelledby="ui-tab">
+            <div class="tab-pane fade" id="ui-tab" role="tabpanel" aria-labelledby="ui-tab">
                 <div class="row">
                     <div class="col-lg-4 mb-4">
                         <div class="project">
@@ -364,7 +364,7 @@
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="mlops" role="tabpanel" aria-labelledby="mlops-tab">
+            <div class="tab-pane fade" id="mlops-tab" role="tabpanel" aria-labelledby="mlops-tab">
                 <div class="row">
                     <div class="col-lg-4 mb-4">
                         <div class="project">
@@ -408,8 +408,6 @@
             });
         });
     });
-</script>
-<script>
 document.addEventListener('DOMContentLoaded', function() {
     function activateTabFromHash() {
         const hash = window.location.hash;
